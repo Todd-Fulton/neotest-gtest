@@ -210,6 +210,7 @@ function NeotestAdapter:_make_strategy_for_command(command)
     request = "launch",
     program = command[1],
     args = { unpack(command, 2) },
+    env = config.debug_env,
   }
 end
 

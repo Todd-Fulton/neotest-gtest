@@ -67,6 +67,7 @@ local default_config = {
     end
     return true
   end,
+  debug_env = {},
 }
 
 local config = default_config
